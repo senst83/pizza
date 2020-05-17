@@ -1,0 +1,1552 @@
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+    line-height: 1.15;
+  /* 1 */
+    -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+    margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+    display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+    box-sizing: content-box;
+  /* 1 */
+    height: 0;
+  /* 1 */
+    overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+    font-family: monospace, monospace;
+  /* 1 */
+    font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+    background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+    border-bottom: none;
+  /* 1 */
+    text-decoration: underline;
+  /* 2 */
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+    font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+    font-family: monospace, monospace;
+  /* 1 */
+    font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+    font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+    border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+  /* 1 */
+    font-size: 100%;
+  /* 1 */
+    line-height: 1.15;
+  /* 1 */
+    margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+    overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+    text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+    -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+    padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+    box-sizing: border-box;
+  /* 1 */
+    color: inherit;
+  /* 2 */
+    display: table;
+  /* 1 */
+    max-width: 100%;
+  /* 1 */
+    padding: 0;
+  /* 3 */
+    white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+    vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+    overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+    box-sizing: border-box;
+  /* 1 */
+    padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+    -webkit-appearance: textfield;
+  /* 1 */
+    outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+  /* 1 */
+    font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+    display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+    display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+    display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+    display: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 750px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: none;
+    }
+}
+
+/* montserrat-900 - cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../fonts/montserrat-v14-cyrillic-900.eot");
+  /* IE9 Compat Modes */
+  src: local("Montserrat Black"), local("Montserrat-Black"), url("../fonts/montserrat-v14-cyrillic-900.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-v14-cyrillic-900.woff2") format("woff2"), url("../fonts/montserrat-v14-cyrillic-900.woff") format("woff"), url("../fonts/montserrat-v14-cyrillic-900.ttf") format("truetype"), url("../fonts/montserrat-v14-cyrillic-900.svg#Montserrat") format("svg");
+  /* Legacy iOS */
+}
+
+/* roboto-300 - cyrillic */
+@font-face {
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/roboto-v20-cyrillic-300.eot");
+  /* IE9 Compat Modes */
+  src: local("Roboto Light"), local("Roboto-Light"), url("../fonts/roboto-v20-cyrillic-300.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v20-cyrillic-300.woff2") format("woff2"), url("../fonts/roboto-v20-cyrillic-300.woff") format("woff"), url("../fonts/roboto-v20-cyrillic-300.ttf") format("truetype"), url("../fonts/roboto-v20-cyrillic-300.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+
+/* Default styles */
+html,
+body {
+    background-color: #fff;
+    font-size: 15px;
+    color: #000;
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: 900;
+    font-family: "Montserrat";
+    height: 100%;
+}
+
+body {
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: "Montserrat";
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+ul,
+h1,
+h3,
+h4,
+h5,
+li,
+span,
+br,
+p,
+a,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+.ibg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.ibg img {
+    display: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.content {
+    -webkit-box-flex: 1;
+    flex: 1 0 auto;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.js-focus-visible :focus:not(.focus-visible) {
+    outline: 0;
+}
+
+/* Blocks */
+.intro {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #0b1419;
+}
+
+.intro__bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.intro__opacity {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.intro__inner {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 100vh;
+    z-index: 1;
+}
+
+.intro__text {
+    width: 450px;
+    text-align: center;
+    max-width: 450px;
+}
+
+.intro__text p {
+    font: 900 24px "Montserrat";
+    color: #fcff00;
+}
+
+.intro__text h1 {
+    font: 900 54px "Montserrat";
+    color: #fff;
+    line-height: 1.4;
+}
+
+.intro__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.intro__btn {
+    display: block;
+    cursor: pointer;
+    font: 900 18px "Montserrat";
+    color: #fff;
+    border-radius: 28px;
+    outline: none;
+    border: none;
+    padding: 17px 70px;
+    margin: 0px auto 0px;
+    background-color: #ff5441;
+    box-shadow: 0px 0px 38px 0px rgba(212, 66, 50, 0.9);
+    -webkit-transition: background .2s, -webkit-transform .2s;
+    transition: background .2s, -webkit-transform .2s;
+    transition: background .2s, transform .2s;
+    transition: background .2s, transform .2s, -webkit-transform .2s;
+}
+
+.intro__btn:hover {
+    background-color: #e93521;
+}
+
+.intro__btn:active {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+@media (max-width: 560px) {
+    .intro__text {
+        width: auto;
+    }
+}
+
+@media (max-width: 474px) {
+    .intro__text p {
+        font-size: 20px;
+    }
+
+    .intro__text h1 {
+        font-size: 45px;
+        color: #fff;
+        line-height: 1.4;
+    }
+}
+
+@media (max-width: 400px) {
+    .intro__text h1 {
+        font-size: 35px;
+    }
+}
+
+.header {
+    width: 100%;
+    background-color: #0b1419;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.header.is-active .header__body {
+    height: 50px;
+    -webkit-transition: height .2s;
+    transition: height .2s;
+}
+
+.header__body {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px 15px 0px;
+    height: 70px;
+}
+
+.header__menu {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.menu__list {
+    display: -webkit-box;
+    display: flex;
+}
+
+.menu__list li {
+    margin: 0px 33px 0px;
+}
+
+.menu__list li:last-child {
+    margin-right: 47px;
+}
+
+.menu__link {
+    font: 900 18px "Montserrat";
+    color: #fff;
+}
+
+.header__button {
+    display: inline-block;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    border-radius: 21px;
+    border: 3px solid #fff;
+    font: 900 16px "Montserrat";
+    color: #fff;
+    padding: 9px 16px 9px 17px;
+}
+
+.header__burger {
+    display: none;
+}
+
+.header__hamburger {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .header__body {
+        margin: 0;
+    }
+
+    .menu__list li:last-child {
+        margin-right: 0;
+    }
+
+    .menu__nav {
+        display: none;
+    }
+
+    .header__btn {
+        margin-right: 15px;
+    }
+  /* btn-menu start */
+    .header__hamburger {
+        display: block;
+    }
+
+    .btn-menu {
+        background: none;
+        border-radius: 0;
+        cursor: pointer;
+        display: inline-block;
+        border: 0;
+    }
+
+    .btn-menu__box {
+        display: inline-block;
+        width: 40px;
+        height: 24px;
+    }
+
+    .btn-menu__inner::before,
+  .btn-menu__inner::after,
+  .btn-menu__inner {
+        background: #fff;
+        width: 100%;
+        height: 4px;
+        border-radius: 5px;
+    }
+
+    .btn-menu__inner {
+        display: block;
+        top: 50%;
+        position: relative;
+    }
+
+    .btn-menu__inner::before,
+  .btn-menu__inner::after {
+        content: '';
+        position: absolute;
+        left: 0;
+    }
+
+    .btn-menu__inner::before {
+        top: -10px;
+    }
+
+    .btn-menu__inner::after {
+        bottom: -10px;
+    }
+  /* btn-menu end */
+  /*  .header__menu {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transition: all .3s ease 0s;
+        background-color: #E26177;
+        padding: 70px 10px 20px 10px;
+        overflow: auto;
+    }
+
+    .header__menu.active {
+        top: 0;
+    } */
+}
+
+@media (max-width: 500px) {
+    .header__btn {
+        display: none;
+    }
+}
+
+.section-catalog {
+    background-color: #fff;
+}
+
+.catalog__inner {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    padding: 110px 0 0;
+}
+
+.catalog__info {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.catalog__text {
+    font: 900 48px "Montserrat";
+    color: #ffa650;
+}
+
+.catalog__filter {
+    display: -webkit-box;
+    display: flex;
+    margin: 35px auto 0;
+    max-width: 600px;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
+    height: 47px;
+    border-radius: 23px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.filter__btn {
+    -webkit-box-flex: 1;
+    flex: 1 0 25%;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font: 900 18px "Montserrat";
+    background-color: #fff;
+    color: #e6e6e6;
+    z-index: 1;
+    -webkit-transition: background .2s;
+    transition: background .2s;
+}
+
+.filter__btn:hover {
+    background-color: #ffa650;
+}
+
+.filter__btn.is-active {
+    color: #fff;
+    background-color: #1f1f1f;
+}
+
+.item__img {
+    margin: 0 auto;
+}
+
+.item__img-src {
+    width: 286px;
+    height: 175px;
+}
+
+@media (max-width: 1200px) {
+    .item__img-src {
+        height: auto;
+    }
+}
+
+/* section item */
+.section-catalog__item {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -30px;
+    padding-top: 70px;
+    height: 100%;
+}
+
+.catalog__item {
+    width: calc(100% / 3);
+    padding: 0px 30px;
+    margin-bottom: 100px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    min-height: 300px;
+    position: relative;
+}
+
+.catalog__item:before {
+    content: '';
+    display: block;
+    background-color: #f7f7f7;
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.catalog__item:nth-of-type(3n + 1):before {
+    content: none;
+}
+
+@media (max-width: 992px) {
+    .catalog__item:nth-of-type(even):before {
+        content: '';
+    }
+
+    .catalog__item:nth-of-type(odd):before {
+        content: none;
+    }
+}
+
+@media (max-width: 650px) {
+    .catalog__item:nth-of-type(even):before {
+        content: none;
+    }
+
+    .item__order {
+        border-bottom: 1px solid #f7f7f7;
+        padding-bottom: 25px;
+    }
+
+    .catalog__item {
+        margin-bottom: 25px !important;
+    }
+}
+
+.item__text {
+    margin-top: 30px;
+    -webkit-box-flex: 1;
+    flex: 1 1 auto;
+}
+
+.item__text p {
+    font: 900 22px "Montserrat";
+    color: #1f1f1f;
+    margin-bottom: 10px;
+}
+
+.item__text h3 {
+    font: 300 16px "Roboto";
+    color: #9f9f9f;
+    line-height: 1.37;
+}
+
+.item__order {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.item__size {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin: 25px 0;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 21px;
+    overflow: hidden;
+    position: relative;
+}
+
+.size__checker {
+    display: none;
+}
+
+/* .size__checker {
+    position: absolute;
+    padding: 13px 28px 12px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 21px;
+    left: 0;
+    top: 0;
+    transition: transform .3s ease-out;
+  }
+
+  .item__size.is-active {
+    
+    color: #a2a2a2;
+    /* box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08); 
+  } 
+  
+*/
+.size__btn {
+    display: inline-block;
+    background-color: #fff;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 13px 28px 12px;
+    font: 900 16px "Montserrat";
+    color: #e6e6e6;
+}
+
+.size__btn.is-active {
+    color: #a2a2a2;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+}
+
+.item__order {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.item__price,
+.item__price span {
+    font: 900 22px "Montserrat";
+    color: 1f1f1f;
+}
+
+.item__btn {
+    display: inline-block;
+    padding: 14px 60px 15px;
+    border-radius: 24px;
+    color: #fff;
+    font: 900 16px "Montserrat";
+    border: none;
+    outline: none;
+    background-color: #ffa650;
+    cursor: pointer;
+    -webkit-transition: background .2s, -webkit-transform .2s;
+    transition: background .2s, -webkit-transform .2s;
+    transition: background .2s, transform .2s;
+    transition: background .2s, transform .2s, -webkit-transform .2s;
+}
+
+.item__btn:hover {
+    background-color: #ec8f37;
+}
+
+.item__btn:active {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+@media (max-width: 1200px) {
+    .section-catalog__item {
+        margin: 0 -20px;
+    }
+
+    .catalog__item {
+        padding: 0px 20px;
+    }
+
+    .size__btn {
+        padding: 13px 20px 12px;
+    }
+}
+
+@media (max-width: 992px) {
+    .catalog__item {
+        width: calc(100% / 2);
+    }
+}
+
+@media (max-width: 767px) {
+    .section-catalog__item {
+        margin: 0 -15px;
+    }
+
+    .catalog__item {
+        padding: 0px 15px;
+    }
+}
+
+@media (max-width: 650px) {
+    .catalog__filter {
+        flex-wrap: wrap;
+        height: 93px;
+    }
+
+    .filter__btn {
+        -webkit-box-flex: 0;
+        flex: 0 0 50%;
+    }
+
+    .filter__btn:nth-child(2) {
+        border-bottom: 1px solid #f7f7f7;
+    }
+
+    .catalog__item {
+        margin: 0 auto 55px;
+        width: 360px;
+    }
+}
+
+@media (max-width: 370px) {
+    .catalog__item {
+        width: 100%;
+    }
+}
+
+.about__item {
+    display: -webkit-box;
+    display: flex;
+}
+
+.about__l {
+    -webkit-box-flex: 0;
+    flex: 0 0 50%;
+}
+
+.about__r {
+    -webkit-box-flex: 0;
+    flex: 0 1 50%;
+    background: -webkit-gradient(linear, left top, right top, from(#2b2b2b), to(#1f1f1f));
+    background: linear-gradient(90deg, #2b2b2b 0%, #1f1f1f 100%);
+    padding: 100px 20px 100px 85px;
+}
+
+.about__text {
+    font: 900 48px "Montserrat";
+    color: #fff;
+    line-height: 1.6;
+}
+
+.about__info {
+    max-width: 640px;
+    font: 300 18px "Roboto";
+    color: #fff;
+    line-height: 1.6;
+}
+
+@media (max-width: 767px) {
+    .about__item {
+        flex-wrap: wrap;
+    }
+
+    .about__l {
+        -webkit-box-flex: 0;
+        flex: 0 0 100%;
+        padding-bottom: 47%;
+    }
+
+    .about__r {
+        -webkit-box-flex: 0;
+        flex: 0 0 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .about__r {
+        padding: 60px 20px 69px 45px;
+    }
+}
+
+@media (max-width: 450px) {
+    .about__r {
+        padding: 33px 20px 25px 34px;
+    }
+
+    .about__text {
+        font: 900 35px Montserrat;
+    }
+
+    .about__info {
+        max-width: 100%;
+        font: 300 15px "Roboto";
+    }
+}
+
+.footer {
+    background: -webkit-gradient(linear, left top, right top, from(#2b2b2b), to(#1f1f1f));
+    background: linear-gradient(90deg, #2b2b2b 0%, #1f1f1f 100%);
+}
+
+.footer__inner {
+    text-align: center;
+    padding: 32px 32px;
+}
+
+.footer__inner h4 {
+    font: 900 18px "Montserrat";
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    overflow: auto;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.popup.is-active {
+    pointer-events: auto;
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup__wrapper {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.popup__inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.popup__content {
+    position: relative;
+    max-width: 730px;
+    margin: 0 auto;
+    padding: 125px 0;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.popup__btn {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    background: none;
+    padding: 0px 0px 0px 0px;
+    width: 50px;
+    height: 40px;
+    -webkit-transition: opacity .2s, -webkit-transform .2s;
+    transition: opacity .2s, -webkit-transform .2s;
+    transition: transform .2s, opacity .2s;
+    transition: transform .2s, opacity .2s, -webkit-transform .2s;
+}
+
+.popup__btn:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.popup__btn:active {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    opacity: .8;
+}
+
+.popup__btn::before,
+.popup__btn::after {
+    content: '';
+    background-color: #d2d2d2;
+    height: 40px;
+    width: 3px;
+    position: absolute;
+    border: 10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.popup__btn::before {
+    -webkit-transform: translateY(-50%) rotate(45deg);
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.popup__btn::after {
+    -webkit-transform: translateY(-50%) rotate(-45deg);
+    transform: translateY(-50%) rotate(-45deg);
+}
+
+.order__info-title {
+    font: 900 18px Montserrat;
+    color: #1f1f1f;
+    margin-bottom: 10px;
+}
+
+/* menu link */
+.mobile-menu__list li {
+    margin-bottom: 40px;
+}
+
+.mobile-menu__link {
+    font: 900 24px "Montserrat";
+    color: #1f1f1f;
+    line-height: 1;
+}
+
+.popup__btn-cell {
+    font: 900 16px "Montserrat";
+    color: #ffa650;
+    border-radius: 21px;
+    border: 3px solid #ffa650;
+    padding: 10px 12px;
+}
+
+@media (max-width: 767px) {
+    .popup__content {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 575px) {
+    .popup__content {
+        max-width: 100%;
+        border-radius: 0;
+        height: 100%;
+        overflow: hidden;
+    }
+}
+
+.order__content {
+    max-width: 730px;
+}
+
+.order__title {
+    font: 900 48px "Montserrat";
+    color: #1f1f1f;
+    line-height: 2.18;
+}
+
+@media (max-width: 500px) {
+    .order__title {
+        line-height: 1.18;
+    }
+}
+
+.order__text {
+    max-width: 310px;
+    text-align: center;
+    margin: 0 auto;
+    font: 300 24px "Roboto";
+    color: #1f1f1f;
+    line-height: 1.25;
+}
+
+.order__img {
+    width: 180px;
+    height: auto;
+    margin: 45px auto 20px;
+}
+
+.order__img img {
+    width: 100%;
+    height: 100%;
+}
+
+.order__info {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.order__name {
+    font: 900 22px "Montserrat";
+    color: #1f1f1f;
+    line-height: 1.1;
+}
+
+.price__info {
+    margin-left: 10px;
+    font: 900 22px "Montserrat";
+    color: #1f1f1f;
+}
+
+.price__info span {
+    font: 900 22px "Montserrat";
+    color: #1f1f1f;
+}
+
+.price__size {
+    font: 900 16px "Montserrat";
+    color: #a2a2a2;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/* form */
+.order__form {
+    display: block;
+    max-width: 310px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.form__input {
+    width: 100%;
+    padding: 20px 0px 20px 30px;
+    background-color: #f7f7f7;
+    border-radius: 32px;
+    border: 2px solid transparent;
+    outline: none;
+    margin-bottom: 8px;
+    font: 300 16px "Roboto";
+    color: #a2a2a2;
+    line-height: 1.5;
+}
+
+.form__input:focus {
+    border-color: #ffa650;
+}
+
+.form__select {
+    width: 100%;
+    padding: 20px 0px 20px 30px;
+    background-color: #f7f7f7;
+    border-radius: 32px;
+    border: 2px solid transparent;
+    outline: none;
+    margin-bottom: 8px;
+    font: 300 16px "Roboto";
+    color: #a2a2a2;
+    line-height: 1.5;
+}
+
+.form__select:focus {
+    border-color: #ffa650;
+}
+
+.form__select option {
+    border-radius: 32px;
+}
+
+.form__btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #ffa650;
+    border-radius: 32px;
+    border: none;
+    outline: none;
+    padding: 20px 0px;
+    font-size: 16px;
+    color: #fff;
+    -webkit-transition: background .2s, -webkit-transform .2s;
+    transition: background .2s, -webkit-transform .2s;
+    transition: background .2s, transform .2s;
+    transition: background .2s, transform .2s, -webkit-transform .2s;
+}
+
+.form__btn:hover {
+    background: #cf7725;
+}
+
+.form__btn:active {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.successfully__text {
+    font: 300 24px "Roboto";
+    color: #1f1f1f;
+    margin-top: 21px;
+}
+
+.successfully__info {
+    font: 900 48px "Montserrat";
+    color: #1f1f1f;
+}
+
+.map__title {
+    text-align: center;
+    margin: 100px 80px;
+    font: 900 48px "Montserrat";
+    color: #1f1f1f;
+}
+
+.map__content {
+    display: -webkit-box;
+    display: flex;
+    padding-bottom: 110px;
+}
+
+@media (max-width: 500px) {
+    .map__title {
+        margin: 30px auto !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .map__content {
+        flex-wrap: wrap;
+    }
+
+    .map__window {
+        width: 100% !important;
+    }
+}
+
+.map__window {
+    width: 710px;
+    height: 470px;
+    background-color: #fef0b4;
+}
+
+.map__contact {
+    padding: 110px 0px 0px 30px;
+}
+
+.map__info {
+    padding-bottom: 47px;
+}
+
+.map__address,
+.map__phone,
+.map__social {
+    font: 900 18px "Montserrat";
+    color: #1f1f1f;
+    padding-bottom: 10px;
+}
+
+.map__street,
+.map__number {
+    font: 300 18px "Roboto";
+    color: #1f1f1f;
+}
+
+.fa-vk,
+.fa-facebook-square,
+.fa-instagram-square {
+    color: #fff;
+    background-color: #ffa650;
+    border-radius: 50%;
+    padding: 10px;
+    -webkit-transition: background .2s;
+    transition: background .2s;
+}
+
+.fa-vk:hover,
+  .fa-facebook-square:hover,
+  .fa-instagram-square:hover {
+    background-color: #ff5441;
+}
